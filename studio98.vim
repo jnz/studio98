@@ -12,8 +12,8 @@ set background=light
 hi clear
 let g:colors_name = 'studio98'
 
-let s:t_Co = has('gui_running') ? -1 : (&t_Co ?? 0)
-let s:italics = has('gui_running') || (&t_ZH != '' && &t_ZH != '[7m' && !has('win32'))
+let s:t_Co = has('gui_running') ? -1 : get(g:, 'studio98_t_Co', get(g:, 't_Co', exists('&t_Co') ? +&t_Co : 0))
+let s:italics = has('gui_running') || has('nvim') || (&t_ZH != '' && &t_ZH != '[7m' && !has('win32'))
 
 hi! link Added diffAdded
 hi! link Boolean Constant
@@ -63,6 +63,24 @@ hi! link lCursor Cursor
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#000000', '#c43d21', '#f3b63c', '#fff3a8', '#478c23', '#0048ff', '#000082', '#357ec7', '#545454', '#b3b3b3', '#dfdfdf', '#f6f6f6', '#ffffff', '#64ffff', '#ff64ff', '#00ffff']
+endif
+if has('nvim')
+  let g:terminal_color_0 = '#000000'
+  let g:terminal_color_1 = '#c43d21'
+  let g:terminal_color_2 = '#f3b63c'
+  let g:terminal_color_3 = '#fff3a8'
+  let g:terminal_color_4 = '#478c23'
+  let g:terminal_color_5 = '#0048ff'
+  let g:terminal_color_6 = '#000082'
+  let g:terminal_color_7 = '#357ec7'
+  let g:terminal_color_8 = '#545454'
+  let g:terminal_color_9 = '#b3b3b3'
+  let g:terminal_color_10 = '#dfdfdf'
+  let g:terminal_color_11 = '#f6f6f6'
+  let g:terminal_color_12 = '#ffffff'
+  let g:terminal_color_13 = '#64ffff'
+  let g:terminal_color_14 = '#ff64ff'
+  let g:terminal_color_15 = '#00ffff'
 endif
 if get(g:, 'studio98_transp_bg', 0) && !has('gui_running')
   hi Normal guifg=#000000 guibg=NONE gui=NONE cterm=NONE
@@ -385,7 +403,7 @@ endif
 " Color: grey          #b3b3b3                   ~         DarkGrey
 " Color: lightgrey     #dfdfdf                   ~         LightGrey
 " Color: verylightgrey #f6f6f6                   ~         LightGrey
-" Color: white         #ffffff                  231        White
+" Color: white         #ffffff                   ~         White
 " Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
 " Color: brightmagenta rgb(255, 100, 255)        ~         LightMagenta
 " Color: cyan          rgb(  0, 255, 255)        ~         DarkCyan

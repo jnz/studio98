@@ -7,6 +7,7 @@ Short name:    studio98
 Author:        Jan Zwiener <jan@zwiener.org>
 ; Optional
 Website:       http://www.zwiener.org
+Neovim:        yes
 ; }}}
 
 ; Documentation {{{
@@ -79,7 +80,7 @@ Color: darkgrey      #545454                   ~         DarkGrey
 Color: grey          #b3b3b3                   ~         DarkGrey
 Color: lightgrey     #dfdfdf                   ~         LightGrey
 Color: verylightgrey #f6f6f6                   ~         LightGrey
-Color: white         #ffffff                  231        White
+Color: white         #ffffff                   ~         White
 Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
 Color: brightmagenta rgb(255, 100, 255)        ~         LightMagenta
 Color: cyan          rgb(  0, 255, 255)        ~         DarkCyan
