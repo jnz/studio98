@@ -131,7 +131,7 @@ hi TabLine guifg=#000000 guibg=#b3b3b3 gui=NONE cterm=NONE
 hi TabLineFill guifg=#b3b3b3 guibg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#000000 guibg=#f6f6f6 gui=NONE cterm=NONE
 hi Title guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
-hi VertSplit guifg=#b3b3b3 guibg=#b3b3b3 gui=NONE cterm=NONE
+hi VertSplit guifg=#dfdfdf guibg=#b3b3b3 gui=NONE cterm=NONE
 hi Visual guifg=#ffffff guibg=#000082 gui=NONE cterm=NONE
 hi VisualNOS guifg=#dfdfdf guibg=#545454 gui=NONE cterm=NONE
 hi WarningMsg guifg=#c43d21 guibg=#ffffff gui=NONE cterm=NONE
@@ -204,7 +204,7 @@ if s:t_Co >= 256
   hi TabLineFill ctermfg=249 ctermbg=NONE cterm=NONE
   hi TabLineSel ctermfg=16 ctermbg=255 cterm=NONE
   hi Title ctermfg=16 ctermbg=231 cterm=NONE
-  hi VertSplit ctermfg=249 ctermbg=249 cterm=NONE
+  hi VertSplit ctermfg=254 ctermbg=249 cterm=NONE
   hi Visual ctermfg=231 ctermbg=18 cterm=NONE
   hi VisualNOS ctermfg=254 ctermbg=240 cterm=NONE
   hi WarningMsg ctermfg=160 ctermbg=231 cterm=NONE
@@ -280,7 +280,7 @@ if s:t_Co >= 8
   hi TabLineFill ctermfg=DarkGrey ctermbg=NONE cterm=NONE
   hi TabLineSel ctermfg=Black ctermbg=LightGrey cterm=NONE
   hi Title ctermfg=Black ctermbg=White cterm=NONE
-  hi VertSplit ctermfg=DarkGrey ctermbg=DarkGrey cterm=NONE
+  hi VertSplit ctermfg=LightGrey ctermbg=DarkGrey cterm=NONE
   hi Visual ctermfg=White ctermbg=DarkBlue cterm=NONE
   hi VisualNOS ctermfg=LightGrey ctermbg=DarkGrey cterm=NONE
   hi WarningMsg ctermfg=DarkRed ctermbg=White cterm=NONE

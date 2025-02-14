@@ -148,7 +148,7 @@ TabLine              black             grey
 TabLineFill          grey              none
 TabLineSel           black             verylightgrey
 Title                black             white
-VertSplit            grey              grey
+VertSplit            lightgrey         grey
 Visual               white             darkblue
 VisualNOS            lightgrey         darkgrey
 WarningMsg           red               white
