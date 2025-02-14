@@ -136,13 +136,13 @@ Question             white             darkblue
 Search               black             yellow
 QuickFixLine         white             darkblue
 SignColumn           black             white
-SpecialKey           darkblue          verylightgrey
-SpellBad             red               white             s=red
-SpellCap             black             white             s=blue
-SpellLocal           black             white             s=green
-SpellRare            black             white             s=red  reverse
+SpecialKey           grey              white
+SpellBad             red               white             s=red undercurl
+SpellCap             black             white             s=blue undercurl
+SpellLocal           black             white             s=green undercurl
+SpellRare            black             white             s=red undercurl
 StatusLine           white             cornblue
-StatusLineNC         white             lightgrey
+StatusLineNC         white             grey
 TabLine              black             grey
 TabLineFill          grey              none
 TabLineSel           black             verylightgrey

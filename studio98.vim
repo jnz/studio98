@@ -102,13 +102,13 @@ hi Question guifg=#ffffff guibg=#000082 gui=NONE cterm=NONE
 hi Search guifg=#000000 guibg=#fff3a8 gui=NONE cterm=NONE
 hi QuickFixLine guifg=#ffffff guibg=#000082 gui=NONE cterm=NONE
 hi SignColumn guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
-hi SpecialKey guifg=#000082 guibg=#f6f6f6 gui=NONE cterm=NONE
-hi SpellBad guifg=#c43d21 guibg=#ffffff guisp=#c43d21 gui=NONE cterm=NONE
-hi SpellCap guifg=#000000 guibg=#ffffff guisp=#0048ff gui=NONE cterm=NONE
-hi SpellLocal guifg=#000000 guibg=#ffffff guisp=#478c23 gui=NONE cterm=NONE
-hi SpellRare guifg=#000000 guibg=#ffffff guisp=#c43d21 gui=reverse cterm=reverse
+hi SpecialKey guifg=#b3b3b3 guibg=#ffffff gui=NONE cterm=NONE
+hi SpellBad guifg=#c43d21 guibg=#ffffff guisp=#c43d21 gui=undercurl cterm=undercurl
+hi SpellCap guifg=#000000 guibg=#ffffff guisp=#0048ff gui=undercurl cterm=undercurl
+hi SpellLocal guifg=#000000 guibg=#ffffff guisp=#478c23 gui=undercurl cterm=undercurl
+hi SpellRare guifg=#000000 guibg=#ffffff guisp=#c43d21 gui=undercurl cterm=undercurl
 hi StatusLine guifg=#ffffff guibg=#357ec7 gui=NONE cterm=NONE
-hi StatusLineNC guifg=#ffffff guibg=#dfdfdf gui=NONE cterm=NONE
+hi StatusLineNC guifg=#ffffff guibg=#b3b3b3 gui=NONE cterm=NONE
 hi TabLine guifg=#000000 guibg=#b3b3b3 gui=NONE cterm=NONE
 hi TabLineFill guifg=#b3b3b3 guibg=NONE gui=NONE cterm=NONE
 hi TabLineSel guifg=#000000 guibg=#f6f6f6 gui=NONE cterm=NONE
@@ -175,13 +175,13 @@ if s:t_Co >= 256
   hi Search ctermfg=16 ctermbg=229 cterm=NONE
   hi QuickFixLine ctermfg=231 ctermbg=18 cterm=NONE
   hi SignColumn ctermfg=16 ctermbg=231 cterm=NONE
-  hi SpecialKey ctermfg=18 ctermbg=255 cterm=NONE
-  hi SpellBad ctermfg=160 ctermbg=231 cterm=NONE
-  hi SpellCap ctermfg=16 ctermbg=231 cterm=NONE
-  hi SpellLocal ctermfg=16 ctermbg=231 cterm=NONE
-  hi SpellRare ctermfg=16 ctermbg=231 cterm=reverse
+  hi SpecialKey ctermfg=249 ctermbg=231 cterm=NONE
+  hi SpellBad ctermfg=160 ctermbg=231 cterm=undercurl
+  hi SpellCap ctermfg=16 ctermbg=231 cterm=undercurl
+  hi SpellLocal ctermfg=16 ctermbg=231 cterm=undercurl
+  hi SpellRare ctermfg=16 ctermbg=231 cterm=undercurl
   hi StatusLine ctermfg=231 ctermbg=32 cterm=NONE
-  hi StatusLineNC ctermfg=231 ctermbg=254 cterm=NONE
+  hi StatusLineNC ctermfg=231 ctermbg=249 cterm=NONE
   hi TabLine ctermfg=16 ctermbg=249 cterm=NONE
   hi TabLineFill ctermfg=249 ctermbg=NONE cterm=NONE
   hi TabLineSel ctermfg=16 ctermbg=255 cterm=NONE
@@ -251,13 +251,13 @@ if s:t_Co >= 8
   hi Search ctermfg=Black ctermbg=LightYellow cterm=NONE
   hi QuickFixLine ctermfg=White ctermbg=DarkBlue cterm=NONE
   hi SignColumn ctermfg=Black ctermbg=White cterm=NONE
-  hi SpecialKey ctermfg=DarkBlue ctermbg=LightGrey cterm=NONE
-  hi SpellBad ctermfg=DarkRed ctermbg=White cterm=NONE
-  hi SpellCap ctermfg=Black ctermbg=White cterm=NONE
-  hi SpellLocal ctermfg=Black ctermbg=White cterm=NONE
-  hi SpellRare ctermfg=Black ctermbg=White cterm=reverse
+  hi SpecialKey ctermfg=DarkGrey ctermbg=White cterm=NONE
+  hi SpellBad ctermfg=DarkRed ctermbg=White cterm=undercurl
+  hi SpellCap ctermfg=Black ctermbg=White cterm=undercurl
+  hi SpellLocal ctermfg=Black ctermbg=White cterm=undercurl
+  hi SpellRare ctermfg=Black ctermbg=White cterm=undercurl
   hi StatusLine ctermfg=White ctermbg=LightBlue cterm=NONE
-  hi StatusLineNC ctermfg=White ctermbg=LightGrey cterm=NONE
+  hi StatusLineNC ctermfg=White ctermbg=DarkGrey cterm=NONE
   hi TabLine ctermfg=Black ctermbg=DarkGrey cterm=NONE
   hi TabLineFill ctermfg=DarkGrey ctermbg=NONE cterm=NONE
   hi TabLineSel ctermfg=Black ctermbg=LightGrey cterm=NONE
