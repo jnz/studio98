@@ -1,5 +1,7 @@
 # studio98
 
+![logo](img/logo.jpg)
+
 Studio98 is a Vim colorscheme inspired by the Visual Studio 6.0 era on Windows 98/NT—back when editors were simple, fast, and got out of the way. It’s built for focus, with a bright white background and high-contrast syntax highlighting that makes code instantly readable. No trendy low-contrast themes, no distractions—just clear, sharp text that keeps you locked into the code.
 
 If you learned programming like me in the ’90s, these colors will feel familiar. They’re wired into muscle memory, making it easy to navigate and think without hesitation.
