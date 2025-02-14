@@ -112,10 +112,10 @@ Cursor               white             black
 CursorColumn         none              lightgrey
 CursorLine           none              lightgrey
 CursorLineNr         black             verylightgrey
-DiffAdd              black             white             reverse
-DiffChange           none              orange            reverse
-DiffDelete           black             white             reverse
-DiffText             black             white             bold,reverse
+DiffAdd              green             white             bold,reverse
+DiffChange           orange            fg                bold,reverse
+DiffDelete           verylightgrey     fg                bold,reverse
+DiffText             red               fg                bold,reverse
 Directory            darkblue          none
 EndOfBuffer          grey              verylightgrey     bold
 ErrorMsg             red               white             reverse
