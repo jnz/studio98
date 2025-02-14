@@ -13,6 +13,10 @@ I've also designed it to work on terminals. The contrast remains strong, and not
 ## Screenshots
 
 ![screenshot01](img/screenshot01.png)
+Font: Monaspace Neon
+
+![screenshot02](img/screenshot02.png)
+Font: Courier New
 
 ## Installation
 
