@@ -106,7 +106,7 @@ hi FoldColumn guifg=#545454 guibg=#dfdfdf gui=NONE cterm=NONE
 hi Folded guifg=#545454 guibg=#b3b3b3 gui=italic cterm=italic
 hi IncSearch guifg=#000000 guibg=#f3b63c gui=NONE cterm=NONE
 hi LineNr guifg=#b3b3b3 guibg=#f6f6f6 gui=NONE cterm=NONE
-hi MatchParen guifg=#000000 guibg=#dfdfdf gui=NONE cterm=NONE
+hi MatchParen guifg=#000000 guibg=#b3b3b3 gui=NONE cterm=NONE
 hi ModeMsg guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
 hi MoreMsg guifg=#0048ff guibg=#ffffff gui=NONE cterm=NONE
 hi NonText guifg=#b3b3b3 guibg=#f6f6f6 gui=NONE cterm=NONE
@@ -179,7 +179,7 @@ if s:t_Co >= 256
   hi Folded ctermfg=240 ctermbg=249 cterm=italic
   hi IncSearch ctermfg=16 ctermbg=214 cterm=NONE
   hi LineNr ctermfg=249 ctermbg=255 cterm=NONE
-  hi MatchParen ctermfg=16 ctermbg=254 cterm=NONE
+  hi MatchParen ctermfg=16 ctermbg=249 cterm=NONE
   hi ModeMsg ctermfg=16 ctermbg=231 cterm=NONE
   hi MoreMsg ctermfg=27 ctermbg=231 cterm=NONE
   hi NonText ctermfg=249 ctermbg=255 cterm=NONE
@@ -255,7 +255,7 @@ if s:t_Co >= 8
   hi Folded ctermfg=DarkGrey ctermbg=DarkGrey cterm=italic
   hi IncSearch ctermfg=Black ctermbg=DarkYellow cterm=NONE
   hi LineNr ctermfg=DarkGrey ctermbg=LightGrey cterm=NONE
-  hi MatchParen ctermfg=Black ctermbg=LightGrey cterm=NONE
+  hi MatchParen ctermfg=Black ctermbg=DarkGrey cterm=NONE
   hi ModeMsg ctermfg=Black ctermbg=White cterm=NONE
   hi MoreMsg ctermfg=LightBlue ctermbg=White cterm=NONE
   hi NonText ctermfg=DarkGrey ctermbg=LightGrey cterm=NONE
