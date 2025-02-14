@@ -109,7 +109,7 @@ Variant: gui 256 8
 ColorColumn          fg                verylightgrey
 Conceal              grey              none
 Cursor               white             black
-CursorColumn         none              verylightgrey
+CursorColumn         none              lightgrey
 CursorLine           none              lightgrey
 CursorLineNr         black             verylightgrey
 DiffAdd              black             white             reverse
@@ -134,7 +134,7 @@ PmenuMatch           darkgrey          verylightgrey
 PmenuMatchSel        grey              darkblue
 PmenuThumb           none              black
 Question             white             darkblue
-Search               black             yellow
+Search               yellow            fg                reverse
 QuickFixLine         white             darkblue
 SignColumn           black             white
 SpecialKey           grey              white

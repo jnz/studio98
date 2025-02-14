@@ -92,7 +92,7 @@ endif
 hi ColorColumn guifg=fg guibg=#f6f6f6 gui=NONE cterm=NONE
 hi Conceal guifg=#b3b3b3 guibg=NONE gui=NONE cterm=NONE
 hi Cursor guifg=#ffffff guibg=#000000 gui=NONE cterm=NONE
-hi CursorColumn guifg=NONE guibg=#f6f6f6 gui=NONE cterm=NONE
+hi CursorColumn guifg=NONE guibg=#dfdfdf gui=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#dfdfdf gui=NONE cterm=NONE
 hi CursorLineNr guifg=#000000 guibg=#f6f6f6 gui=NONE cterm=NONE
 hi DiffAdd guifg=#000000 guibg=#ffffff gui=reverse cterm=reverse
@@ -117,7 +117,7 @@ hi PmenuMatch guifg=#545454 guibg=#f6f6f6 gui=NONE cterm=NONE
 hi PmenuMatchSel guifg=#b3b3b3 guibg=#000082 gui=NONE cterm=NONE
 hi PmenuThumb guifg=NONE guibg=#000000 gui=NONE cterm=NONE
 hi Question guifg=#ffffff guibg=#000082 gui=NONE cterm=NONE
-hi Search guifg=#000000 guibg=#fff3a8 gui=NONE cterm=NONE
+hi Search guifg=#fff3a8 guibg=fg gui=reverse cterm=reverse
 hi QuickFixLine guifg=#ffffff guibg=#000082 gui=NONE cterm=NONE
 hi SignColumn guifg=#000000 guibg=#ffffff gui=NONE cterm=NONE
 hi SpecialKey guifg=#b3b3b3 guibg=#ffffff gui=NONE cterm=NONE
@@ -165,7 +165,7 @@ if s:t_Co >= 256
   hi ColorColumn ctermfg=fg ctermbg=255 cterm=NONE
   hi Conceal ctermfg=249 ctermbg=NONE cterm=NONE
   hi Cursor ctermfg=231 ctermbg=16 cterm=NONE
-  hi CursorColumn ctermfg=NONE ctermbg=255 cterm=NONE
+  hi CursorColumn ctermfg=NONE ctermbg=254 cterm=NONE
   hi CursorLine ctermfg=NONE ctermbg=254 cterm=NONE
   hi CursorLineNr ctermfg=16 ctermbg=255 cterm=NONE
   hi DiffAdd ctermfg=16 ctermbg=231 cterm=reverse
@@ -190,7 +190,7 @@ if s:t_Co >= 256
   hi PmenuMatchSel ctermfg=249 ctermbg=18 cterm=NONE
   hi PmenuThumb ctermfg=NONE ctermbg=16 cterm=NONE
   hi Question ctermfg=231 ctermbg=18 cterm=NONE
-  hi Search ctermfg=16 ctermbg=229 cterm=NONE
+  hi Search ctermfg=229 ctermbg=fg cterm=reverse
   hi QuickFixLine ctermfg=231 ctermbg=18 cterm=NONE
   hi SignColumn ctermfg=16 ctermbg=231 cterm=NONE
   hi SpecialKey ctermfg=249 ctermbg=231 cterm=NONE
@@ -266,7 +266,7 @@ if s:t_Co >= 8
   hi PmenuMatchSel ctermfg=DarkGrey ctermbg=DarkBlue cterm=NONE
   hi PmenuThumb ctermfg=NONE ctermbg=Black cterm=NONE
   hi Question ctermfg=White ctermbg=DarkBlue cterm=NONE
-  hi Search ctermfg=Black ctermbg=LightYellow cterm=NONE
+  hi Search ctermfg=LightYellow ctermbg=fg cterm=reverse
   hi QuickFixLine ctermfg=White ctermbg=DarkBlue cterm=NONE
   hi SignColumn ctermfg=Black ctermbg=White cterm=NONE
   hi SpecialKey ctermfg=DarkGrey ctermbg=White cterm=NONE
