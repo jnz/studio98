@@ -1,4 +1,4 @@
-# studio98
+# Studio98
 
 ![logo](img/logo.jpg)
 
@@ -9,6 +9,10 @@ If you learned programming like me in the ’90s, these colors will feel familia
 Studio98 is for those who want a simple, effective color scheme that doesn’t fight for attention—because the focus should be on the code, not the editor.
 
 I've also designed it to work on terminals. The contrast remains strong, and nothing disappears into the background. A white background isn’t just great for a GUI—it can also work well in a terminal window, making text stand out clearly even in lower-color environments.
+
+## Screenshots
+
+![screenshot01](img/screenshot01.png)
 
 ## Installation
 
