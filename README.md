@@ -45,3 +45,8 @@ The template to generate `studio98.vim` is found in the folder:
     template/studio98.colortemplate
 
 Don't modify `studio98.vim` directly.
+
+## Author
+
+2025 Jan Zwiener
+
