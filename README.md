@@ -32,3 +32,16 @@ Font: Courier New
    ```
 3. Restart Vim and enjoy!
 
+## Modification
+
+This colorscheme was built using **vim-colortemplate**, a simple and efficient
+way to create Vim colorschemes. If you want to tweak Studio98 or create your
+own themes, check it out:
+
+🔗 [vim-colortemplate](https://github.com/lifepillar/vim-colortemplate)
+
+The template to generate `studio98.vim` is found in the folder:
+
+    template/studio98.colortemplate
+
+Don't modify `studio98.vim` directly.
