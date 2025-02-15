@@ -18,6 +18,12 @@ Font: Monaspace Neon
 ![screenshot02](img/screenshot02.png)
 Font: Courier New
 
+![screenshot03](img/screenshot03.png)
+Pop-Up Menu
+
+![screenshot04](img/screenshot04.png)
+Development Environment
+
 ## Installation
 
 ### Manual Installation
