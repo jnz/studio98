@@ -167,8 +167,8 @@ Underlined           black             none              underline
 ; See `:help CursorIM`
 CursorIM             none              fg
 ; See `:help window-toolbar`
-ToolbarLine          none              white
-ToolbarButton        black             white             bold
+ToolbarLine          none              grey
+ToolbarButton        black             lightgrey         bold
 ; }}}
 
 ; Additional highlight groups {{{
