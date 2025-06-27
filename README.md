@@ -1,8 +1,8 @@
-# Studio98
+# Studio98 (a Vim/Neovim colorscheme)
 
 ![logo](img/logo2.png)
 
-Studio98 is a Vim colorscheme inspired by the Visual Studio 6.0 era on Windows 98/NT—back when editors were simple, fast, and got out of the way. It’s built for focus, with a bright white background and high-contrast syntax highlighting that makes code instantly readable. No trendy low-contrast themes, no distractions—just clear, sharp text that keeps you locked into the code.
+Studio98 is a Vim and Neovim colorscheme inspired by the Visual Studio 6.0 era on Windows 98/NT—back when editors were simple, fast, and got out of the way. It’s built for focus, with a bright white background and high-contrast syntax highlighting that makes code instantly readable. No trendy low-contrast themes, no distractions—just clear, sharp text that keeps you locked into the code.
 
 If you learned programming like me in the ’90s, these colors will feel familiar. They’re wired into muscle memory, making it easy to navigate and think without hesitation.
 
@@ -24,7 +24,7 @@ Pop-Up Menu
 ![screenshot04](img/screenshot04.png)
 Development Environment
 
-## Installation
+## Installation of colorscheme
 
 ### Manual Installation
 1. Download `studio98.vim` and place it in your Vim colors directory:
