@@ -27,7 +27,7 @@ Development Environment
 ## Installation of colorscheme
 
 ### Manual Installation
-1. Download `studio98.vim` and place it in your Vim colors directory:
+1. Download `colors/studio98.vim` and place it in your Vim colors directory:
    ```sh
    mkdir -p ~/.vim/colors
    cp studio98.vim ~/.vim/colors/
