@@ -1,5 +1,9 @@
 # Studio98 (a Vim/Neovim/VS Code colorscheme)
 
+[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jan-zwiener.studio98?style=flat-square&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=jan-zwiener.studio98)
+
+[![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/jan-zwiener.studio98?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jan-zwiener.studio98)
+
 ![logo](img/logo3.png)
 
 Studio98 is a text editor colorscheme inspired by the Visual Studio 6.0 era on Windows 98/NT — back when editors were simple, fast, and got out of the way. It's built for focus, with a bright white background and high-contrast syntax highlighting that makes code instantly readable. No trendy low-contrast themes, no distractions - just clear, sharp text that keeps you locked into the code.
