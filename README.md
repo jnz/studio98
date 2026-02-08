@@ -76,7 +76,7 @@ introduces breaking changes.
 
 The template to generate `studio98.vim` is found in the folder:
 
-    src/studio98.colortemplate
+    template/studio98.colortemplate
 
 Load the `vim-colortemplate` plugin and then load and edit `studio98.colortemplate`.
 Build a new version of `studio98.vim` with this command:
