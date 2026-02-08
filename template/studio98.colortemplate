@@ -46,7 +46,6 @@ PmenuExtraSel     -> PmenuSel
 PopupNotification -> WarningMsg
 PopupSelected     -> PmenuSel
 PreCondit         -> PreProc
-QuickFixLine      -> Search
 Removed           -> diffRemoved
 Repeat            -> Statement
 SpecialChar       -> Special
@@ -69,12 +68,12 @@ Background: light
 ; Color palette {{{
 ; Color name         GUI                     Base256     Base16 (optional)
 Color: black         rgb(  0,   0,   0)        ~         Black
-Color: red           #c43d21                   ~         DarkRed
+Color: red           #800000                   ~         DarkRed
 Color: orange        #f3b63c                   ~         DarkYellow
-Color: yellow        #fff3a8                   ~         LightYellow
-Color: green         #478C23                   ~         DarkGreen
-Color: blue          #0048ff                   ~         LightBlue
-Color: darkblue      #000082                   ~         DarkBlue
+Color: yellow        #fff953                   ~         LightYellow
+Color: green         #008000                   ~         DarkGreen
+Color: blue          #0000ff                   ~         LightBlue
+Color: darkblue      #000080                   ~         DarkBlue
 Color: cornblue      #357ec7                   ~         LightBlue
 Color: darkgrey      #545454                   ~         DarkGrey
 Color: grey          #b3b3b3                   ~         DarkGrey
@@ -82,7 +81,7 @@ Color: lightgrey     #dfdfdf                   ~         LightGrey
 Color: verylightgrey #f6f6f6                   ~         LightGrey
 Color: white         #ffffff                   ~         White
 Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
-Color: brightmagenta rgb(255, 100, 255)        ~         LightMagenta
+Color: brightmagenta rgb(255,   0, 255)        ~         LightMagenta
 Color: cyan          rgb(  0, 255, 255)        ~         DarkCyan
 ; }}}
 
