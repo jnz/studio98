@@ -1,8 +1,6 @@
 # Studio98 (a Vim/Neovim/VS Code colorscheme)
 
-[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jan-zwiener.studio98?style=flat-square&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=jan-zwiener.studio98)
-
-[![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/jan-zwiener.studio98?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=jan-zwiener.studio98)
+Install: [![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jan-zwiener.studio98?style=flat-square&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=jan-zwiener.studio98)
 
 ![logo](img/logo3.png)
 
@@ -60,6 +58,9 @@ I've also designed it to work on terminals. The contrast remains strong, and not
 3. Restart Neovim
 
 ### Visual Studio Code
+
+Install:
+[![VS Code Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jan-zwiener.studio98?style=flat-square&label=VS%20Code%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=jan-zwiener.studio98)
 
 1. Open the **Extensions** sidebar in VS Code.
 2. Search for `Studio98`.
