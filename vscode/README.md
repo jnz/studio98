@@ -1,5 +1,7 @@
 # Studio98 for Visual Studio Code
 
+![Studio98](https://raw.githubusercontent.com/jnz/studio98/main/img/logo3.png)
+
 Studio98 is a text editor colorscheme inspired by the Visual Studio 6.0 era on Windows 98/NT.
 
 It brings back the classic aesthetic from a time when editors were simple, fast, and got out of the way. Built for focus, it features a bright white background and high-contrast syntax highlighting (Pure Blue for keywords, Dark Blue for types, Green for comments).
