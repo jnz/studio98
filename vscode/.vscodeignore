@@ -1,0 +1,16 @@
+.vscode/**
+.vscode-test/**
+.gitignore
+vsc-extension-quickstart.md
+
+# Just to be sure
+.git/**
+
+img/**
+src/**
+**/*.map
+tsconfig.json
+
+# OS stuff
+.DS_Store
+Thumbs.db

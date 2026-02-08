@@ -1,4 +1,4 @@
-# Studio98 (a Vim/Neovim colorscheme)
+# Studio98 (a Vim/Neovim/VS Code colorscheme)
 
 ![logo](img/logo3.png)
 
@@ -13,20 +13,24 @@ I've also designed it to work on terminals. The contrast remains strong, and not
 ## Screenshots
 
 ![screenshot01](img/screenshot01.png)
-Font: Monaspace Neon
+*Font: Monaspace Neon*
+
+![screenshot01](vscode/img/vscode-demo.png)
+*Visual Studio Code*
 
 ![screenshot02](img/screenshot02.png)
-Font: Courier New
+*Font: Courier New*
 
 ![screenshot03](img/screenshot03.png)
-Pop-Up Menu
+*Pop-Up Menu*
 
 ![screenshot04](img/screenshot04.png)
-Development Environment
+*Development Environment*
 
 ## Installation of colorscheme
 
-### Manual Installation
+### Vim Manual Installation
+
 1. Download `colors/studio98.vim` and place it in your Vim colors directory:
    ```sh
    mkdir -p ~/.vim/colors
@@ -36,7 +40,27 @@ Development Environment
    ```vim
    colorscheme studio98
    ```
-3. Restart Vim and enjoy!
+3. Restart Vim
+
+### Neovim Manual Installation
+
+1. Download `colors/studio98.vim` and place it in your Vim colors directory:
+   ```sh
+    mkdir -p ~/.config/nvim/colors
+    cp studio98.vim ~/.config/nvim/colors/
+   ```
+2. Add the following to your `init.lua`:
+   ```vim
+   vim.cmd.colorscheme('studio98')
+   ```
+3. Restart Neovim
+
+### Visual Studio Code
+
+1. Open the **Extensions** sidebar in VS Code.
+2. Search for `Studio98`.
+3. Click **Install**.
+4. Select the theme via `File > Preferences > Color Theme > Studio98`.
 
 ## Modification and Building
 
@@ -48,13 +72,11 @@ own themes, check it out:
 
 Important: This project uses the v2 syntax of vim-colortemplate.
 Please note that vim-colortemplate has recently moved to a v3 version, which
-introduces breaking changes. If you are reading the
-current documentation of that plugin, it might not match the syntax found in
-this repository.
+introduces breaking changes.
 
 The template to generate `studio98.vim` is found in the folder:
 
-    template/studio98.colortemplate
+    src/studio98.colortemplate
 
 Load the `vim-colortemplate` plugin and then load and edit `studio98.colortemplate`.
 Build a new version of `studio98.vim` with this command:

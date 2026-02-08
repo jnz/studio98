@@ -1,0 +1,36 @@
+{
+  "name": "studio98",
+  "displayName": "Studio98",
+  "description": "A high-contrast light colorscheme inspired by the Visual Studio 6.0 era (late 90s).",
+  "version": "0.0.1",
+  "publisher": "jan-zwiener",
+  "engines": {
+    "vscode": "^1.109.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "light",
+    "theme",
+    "retro",
+    "visual studio",
+    "90s",
+    "high contrast"
+  ],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jnz/studio98"
+  },
+  "license": "MIT",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Studio98",
+        "uiTheme": "vs",
+        "path": "./themes/Studio98-color-theme.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,179 @@
+; vim: ft=colortemplate fdm=marker cc=22,40,58 et ts=2 sw=2
+
+; Information {{{
+; Mandatory
+Full name:     Studio98
+Short name:    studio98
+Author:        Jan Zwiener <jan@zwiener.org>
+; Optional
+Website:       http://www.zwiener.org
+Neovim:        yes
+; }}}
+
+; Documentation {{{
+Include: _help.colortemplate
+; }}}
+
+; Common linked groups {{{
+; Other conventional group names (see `:help group-name`)
+Added             -> diffAdded
+Boolean           -> Constant
+Changed           -> diffChanged
+Character         -> Constant
+Conditional       -> Statement
+CurSearch         -> IncSearch
+CursorLineFold    -> FoldColumn
+CursorLineSign    -> SignColumn
+Debug             -> Special
+Define            -> PreProc
+Delimiter         -> Special
+Exception         -> Statement
+Float             -> Constant
+Function          -> Identifier
+Include           -> PreProc
+Keyword           -> Statement
+Label             -> Statement
+LineNrAbove       -> LineNr
+LineNrBelow       -> LineNr
+Macro             -> PreProc
+MessageWindow     -> WarningMsg
+Number            -> Constant
+Operator          -> Statement
+PmenuKind         -> Pmenu
+PmenuKindSel      -> PmenuSel
+PmenuExtra        -> Pmenu
+PmenuExtraSel     -> PmenuSel
+PopupNotification -> WarningMsg
+PopupSelected     -> PmenuSel
+PreCondit         -> PreProc
+Removed           -> diffRemoved
+Repeat            -> Statement
+SpecialChar       -> Special
+SpecialComment    -> Special
+StatusLineTerm    -> StatusLine
+StatusLineTermNC  -> StatusLineNC
+StorageClass      -> Type
+String            -> Constant
+Structure         -> Type
+Tag               -> Special
+Typedef           -> Type
+debugBreakpoint   -> SignColumn
+debugPC           -> SignColumn
+; See `:help lCursor`
+lCursor           -> Cursor
+; }}}
+
+Background: light
+
+; Color palette {{{
+; Color name         GUI                     Base256     Base16 (optional)
+Color: black         rgb(  0,   0,   0)        ~         Black
+Color: red           #800000                   ~         DarkRed
+Color: orange        #f3b63c                   ~         DarkYellow
+Color: yellow        #fff953                   ~         LightYellow
+Color: green         #008000                   ~         DarkGreen
+Color: blue          #0000ff                   ~         LightBlue
+Color: darkblue      #000080                   ~         DarkBlue
+Color: cornblue      #357ec7                   ~         LightBlue
+Color: darkgrey      #545454                   ~         DarkGrey
+Color: grey          #b3b3b3                   ~         DarkGrey
+Color: lightgrey     #dfdfdf                   ~         LightGrey
+Color: verylightgrey #f6f6f6                   ~         LightGrey
+Color: white         #ffffff                   ~         White
+Color: brightcyan    rgb(100, 255, 255)        ~         LightCyan
+Color: brightmagenta rgb(255,   0, 255)        ~         LightMagenta
+Color: cyan          rgb(  0, 255, 255)        ~         DarkCyan
+; }}}
+
+; Terminal colors {{{
+Term colors: black red orange yellow green blue darkblue cornblue
+Term colors: darkgrey grey lightgrey verylightgrey
+Term colors: white brightcyan brightmagenta cyan
+; }}}
+
+; Default highlight groups {{{
+Variant: gui
+#if get(g:, '@optionprefix_transp_bg', 0) && !has('gui_running')
+Variant: 256 8
+#if get(g:, '@optionprefix_transp_bg', 0)
+Variant: gui 256 8
+    Normal           black             none
+    Terminal         black             none
+#else
+    Normal           black             white
+    Terminal         black             white
+#endif
+
+; Group              Foreground        Background        Attributes
+ColorColumn          fg                verylightgrey
+Conceal              grey              none
+Cursor               white             black
+CursorColumn         none              lightgrey
+CursorLine           none              lightgrey
+CursorLineNr         black             verylightgrey
+DiffAdd              green             white             bold,reverse
+DiffChange           orange            fg                bold,reverse
+DiffDelete           verylightgrey     fg                bold,reverse
+DiffText             red               fg                bold,reverse
+Directory            darkblue          none
+EndOfBuffer          grey              verylightgrey     bold
+ErrorMsg             red               white             reverse
+FoldColumn           darkgrey          lightgrey
+Folded               darkgrey          grey              italic
+IncSearch            black             orange
+LineNr               grey              verylightgrey
+MatchParen           black             grey
+ModeMsg              black             white
+MoreMsg              blue              white
+NonText              grey              verylightgrey
+Pmenu                black             verylightgrey
+PmenuSbar            none              lightgrey
+PmenuSel             white             darkblue
+PmenuMatch           darkgrey          verylightgrey
+PmenuMatchSel        grey              darkblue
+PmenuThumb           none              black
+Question             white             darkblue
+Search               yellow            fg                reverse
+QuickFixLine         white             darkblue
+SignColumn           black             white
+SpecialKey           grey              white
+SpellBad             red               white             s=red undercurl
+SpellCap             black             white             s=blue undercurl
+SpellLocal           black             white             s=green undercurl
+SpellRare            black             white             s=red undercurl
+StatusLine           white             cornblue
+StatusLineNC         white             grey
+TabLine              black             grey
+TabLineFill          grey              none
+TabLineSel           black             verylightgrey
+Title                black             white
+VertSplit            lightgrey         grey
+Visual               white             darkblue
+VisualNOS            lightgrey         darkgrey
+WarningMsg           red               white
+WildMenu             white             darkblue
+Comment              green             none
+Constant             darkblue          none
+Error                red               white             reverse
+Identifier           blue              none
+Ignore               black             none
+PreProc              blue              none
+Special              black             none
+Statement            blue              none
+Todo                 white             darkblue          bold
+Type                 blue              none              bold
+Underlined           black             none              underline
+; See `:help CursorIM`
+CursorIM             none              fg
+; See `:help window-toolbar`
+ToolbarLine          none              grey
+ToolbarButton        black             lightgrey         bold
+; }}}
+
+; Additional highlight groups {{{
+; Add additional highlight groups here if you want
+; }}}
+
+; B/W variant {{{
+Include: _bw.colortemplate
+; }}}
