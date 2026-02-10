@@ -6,15 +6,11 @@
     "editor.foreground": "#000000",
     "editorCursor.foreground": "#000000",
     "editorLineNumber.foreground": "#b3b3b3",
-    "editorLineNumber.activeForeground": "#000000",
-    "editor.lineHighlightBackground": "#dfdfdf40",
+    "editorLineNumber.activeForeground": "#808080",
+    "editor.lineHighlightBackground": "#f7f7f7",
 
     "titleBar.inactiveBackground": "#808080",
     "titleBar.inactiveForeground": "#c0c0c0",
-
-    "editor.selectionBackground": "#357ec74d",
-    "editor.selectionForeground": "#ffffff",
-    "editor.inactiveSelectionBackground": "#dfdfdfbf",
 
     "editorWhitespace.foreground": "#dfdfdf",
 
@@ -24,10 +20,12 @@
     "sideBar.background": "#f6f6f6",
     "sideBar.foreground": "#000000",
     "sideBarSectionHeader.background": "#dfdfdf",
+    "sideBar.border": "#dfdfdf",
+    "editorGroup.border": "#dfdfdf",
+    "panel.border": "#dfdfdf",
 
     "statusBar.background": "#357ec7",
     "statusBar.foreground": "#ffffff",
-    "statusBar.noFolderBackground": "#357ec7",
 
     "activityBar.background": "#dfdfdf",
     "activityBar.foreground": "#000000",
@@ -43,9 +41,16 @@
     "diffEditor.insertedTextBackground": "#00800033",
     "diffEditor.removedTextBackground": "#ff000033",
 
-    "list.activeSelectionBackground": "#357ec7",
+    "list.activeSelectionBackground": "#000080",
     "list.activeSelectionForeground": "#ffffff",
-    "list.hoverBackground": "#dfdfdf"
+    "list.hoverBackground": "#dfdfdf",
+
+    "panelTitle.activeBorder": "#808080",
+    "panelTitle.activeForeground": "#000000",
+    "panelTitle.border": "#dfdfdf",
+    "panelTitle.inactiveForeground": "#545454",
+    "terminal.background": "#ffffff",
+    "terminal.foreground": "#000000",
   },
   "tokenColors": [
     {
@@ -82,14 +87,13 @@
       }
     },
     {
-      "name": "Functions and Identifiers",
+      "name": "Function Calls",
       "scope": [
-        "entity.name.function",
-        "support.function",
-        "meta.function-call"
+        "meta.function-call",
+        "support.function"
       ],
       "settings": {
-        "foreground": "#0000ff"
+        "foreground": "#000000"
       }
     },
     {
@@ -128,6 +132,15 @@
       "settings": {
         "foreground": "#ffffff",
         "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Operators and Punctuation",
+      "scope": [
+        "keyword.operator",
+      ],
+      "settings": {
+        "foreground": "#000000"
       }
     },
     {
