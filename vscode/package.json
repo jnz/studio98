@@ -2,7 +2,7 @@
   "name": "studio98",
   "displayName": "Studio98",
   "description": "A high-contrast light colorscheme inspired by the Visual Studio 6.0 era (late 90s).",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publisher": "jan-zwiener",
   "engines": {
     "vscode": "^1.60.0"
