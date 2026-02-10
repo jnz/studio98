@@ -1,6 +1,6 @@
 # Studio98 for Visual Studio Code
 
-![Studio98](https://raw.githubusercontent.com/jnz/studio98/main/img/logo3.png)
+![Studio98](https://raw.githubusercontent.com/jnz/studio98/main/img/logo3_75.png)
 
 Studio98 is a text editor colorscheme inspired by the Visual Studio 6.0 era on Windows 98/NT.
 
