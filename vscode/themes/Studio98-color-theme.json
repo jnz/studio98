@@ -9,6 +9,9 @@
     "editorLineNumber.activeForeground": "#000000",
     "editor.lineHighlightBackground": "#dfdfdf40",
 
+    "titleBar.inactiveBackground": "#808080",
+    "titleBar.inactiveForeground": "#c0c0c0",
+
     "editor.selectionBackground": "#357ec74d",
     "editor.selectionForeground": "#ffffff",
     "editor.inactiveSelectionBackground": "#dfdfdfbf",
