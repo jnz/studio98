@@ -50,7 +50,7 @@
     "panelTitle.border": "#dfdfdf",
     "panelTitle.inactiveForeground": "#545454",
     "terminal.background": "#ffffff",
-    "terminal.foreground": "#000000",
+    "terminal.foreground": "#000000"
   },
   "tokenColors": [
     {
@@ -147,7 +147,7 @@
       "name": "Error",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#ffffff",
+        "foreground": "#ffffff"
       }
     }
   ]
