@@ -70,6 +70,7 @@ Background: light
 Color: black         rgb(  0,   0,   0)        ~         Black
 Color: red           #800000                   ~         DarkRed
 Color: orange        #f3b63c                   ~         DarkYellow
+Color: lightorange   #fde7b8                   ~         LightYellow
 Color: yellow        #fff953                   ~         LightYellow
 Color: green         #008000                   ~         DarkGreen
 Color: blue          #0000ff                   ~         LightBlue
@@ -112,9 +113,9 @@ CursorColumn         none              lightgrey
 CursorLine           none              lightgrey
 CursorLineNr         black             verylightgrey
 DiffAdd              green             white             bold,reverse
-DiffChange           orange            fg                bold,reverse
+DiffChange           black             lightorange
 DiffDelete           verylightgrey     fg                bold,reverse
-DiffText             red               fg                bold,reverse
+DiffText             black             orange            bold
 Directory            darkblue          none
 EndOfBuffer          grey              verylightgrey     bold
 ErrorMsg             red               white             reverse

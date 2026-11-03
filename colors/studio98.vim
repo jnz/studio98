@@ -95,9 +95,9 @@ hi CursorColumn guifg=NONE guibg=#dfdfdf gui=NONE cterm=NONE
 hi CursorLine guifg=NONE guibg=#dfdfdf gui=NONE cterm=NONE
 hi CursorLineNr guifg=#000000 guibg=#f6f6f6 gui=NONE cterm=NONE
 hi DiffAdd guifg=#008000 guibg=#ffffff gui=bold,reverse cterm=bold,reverse
-hi DiffChange guifg=#f3b63c guibg=fg gui=bold,reverse cterm=bold,reverse
+hi DiffChange guifg=#000000 guibg=#fde7b8 gui=NONE cterm=NONE
 hi DiffDelete guifg=#f6f6f6 guibg=fg gui=bold,reverse cterm=bold,reverse
-hi DiffText guifg=#800000 guibg=fg gui=bold,reverse cterm=bold,reverse
+hi DiffText guifg=#000000 guibg=#f3b63c gui=bold cterm=bold
 hi Directory guifg=#000080 guibg=NONE gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#b3b3b3 guibg=#f6f6f6 gui=bold cterm=bold
 hi ErrorMsg guifg=#800000 guibg=#ffffff gui=reverse cterm=reverse
@@ -168,9 +168,9 @@ if s:t_Co >= 256
   hi CursorLine ctermfg=NONE ctermbg=254 cterm=NONE
   hi CursorLineNr ctermfg=16 ctermbg=255 cterm=NONE
   hi DiffAdd ctermfg=28 ctermbg=231 cterm=bold,reverse
-  hi DiffChange ctermfg=214 ctermbg=fg cterm=bold,reverse
+  hi DiffChange ctermfg=16 ctermbg=223 cterm=NONE
   hi DiffDelete ctermfg=255 ctermbg=fg cterm=bold,reverse
-  hi DiffText ctermfg=88 ctermbg=fg cterm=bold,reverse
+  hi DiffText ctermfg=16 ctermbg=214 cterm=bold
   hi Directory ctermfg=18 ctermbg=NONE cterm=NONE
   hi EndOfBuffer ctermfg=249 ctermbg=255 cterm=bold
   hi ErrorMsg ctermfg=88 ctermbg=231 cterm=reverse
@@ -244,9 +244,9 @@ if s:t_Co >= 8
   hi CursorLine ctermfg=NONE ctermbg=LightGrey cterm=NONE
   hi CursorLineNr ctermfg=Black ctermbg=LightGrey cterm=NONE
   hi DiffAdd ctermfg=DarkGreen ctermbg=White cterm=bold,reverse
-  hi DiffChange ctermfg=DarkYellow ctermbg=fg cterm=bold,reverse
+  hi DiffChange ctermfg=Black ctermbg=LightYellow cterm=NONE
   hi DiffDelete ctermfg=LightGrey ctermbg=fg cterm=bold,reverse
-  hi DiffText ctermfg=DarkRed ctermbg=fg cterm=bold,reverse
+  hi DiffText ctermfg=Black ctermbg=DarkYellow cterm=bold
   hi Directory ctermfg=DarkBlue ctermbg=NONE cterm=NONE
   hi EndOfBuffer ctermfg=DarkGrey ctermbg=LightGrey cterm=bold
   hi ErrorMsg ctermfg=DarkRed ctermbg=White cterm=reverse
@@ -393,6 +393,7 @@ endif
 " Color: black         rgb(  0,   0,   0)        ~         Black
 " Color: red           #800000                   ~         DarkRed
 " Color: orange        #f3b63c                   ~         DarkYellow
+" Color: lightorange   #fde7b8                   ~         LightYellow
 " Color: yellow        #fff953                   ~         LightYellow
 " Color: green         #008000                   ~         DarkGreen
 " Color: blue          #0000ff                   ~         LightBlue
